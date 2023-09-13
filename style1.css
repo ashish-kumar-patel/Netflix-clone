@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url(./background\ img.jpg);
+  height: 100vh;
+  width: 100%;
+}
+.logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.logo-section .logo h2 {
+  color: red;
+  font-family: sans-serif;
+  font-size: 3.2rem;
+  position: relative;
+  left: 120px;
+}
+.logo-sighin #btn1 {
+  height: 35px;
+  width: 101px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  margin-right: 37px;
+  padding-left: 11px;
+}
+
+.logo-sighin #btn2 {
+  height: 35px;
+  width: 100px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #c80000;
+  border-radius: 5px;
+  margin-right: 200px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  height: 500px;
+}
+.content h1 {
+  font-size: 3.5rem;
+  font-family: sans-serif;
+}
+.content span {
+  font-size: 1.7rem;
+  font-family: serif;
+  margin-top: 10px;
+}
+
+.content p {
+  font-size: 1.5rem;
+  font-family: system-ui;
+  margin-top: 25px;
+}
+
+.buttun-sec #tex1 {
+  height: 50px;
+  width: 360px;
+  background-color: transparent;
+  margin-top: 10px;
+  border: 2px solid;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+.buttun-sec #btn3 {
+  height: 52px;
+  width: 160px;
+  border-radius: 5px;
+  background-color: #c80000;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/** page 2 styling **/
+
+.body-content {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border-top: 10px solid rgb(43, 37, 37);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.body-content-left {
+  color: white;
+  padding-left: 30px;
+}
+.body-content-left h2 {
+  font-size: 3.5rem;
+  font-family: system-ui;
+}
+.body-content-left h4 {
+  font-size: 1.5rem;
+  font-family: system-ui;
+  margin-top: 25px;
+}
+.body-content-right img {
+  height: 500px;
+  width: 500px;
+  margin-right: 100px;
+}
+/** page 3 styling **/
+.body-content1 {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  justify-content: space-around;
+  border-top: 10px solid rgb(43, 37, 37);
+}
+.body-content1-left {
+  position: relative;
+}
+.body-content1-left img {
+  height: 520px;
+}
+.body-content1-left .overlay {
+  height: 122px;
+  width: 374px;
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 23%;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 9px;
+  background-color: black;
+}
+.body-content1-left .overlay .image-sec img {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin-left: 20px;
+}
+.body-content1-left .overlay .text-sec1 span {
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-family: serif;
+  position: relative;
+  margin-left: 20px;
+}
+.body-content1-left .overlay .text-sec1 p {
+  color: rgb(62, 57, 210);
+  font-size: 1.1rem;
+  font-family: serif;
+  position: relative;
+  margin-left: 20px;
+}
+
+.body-content2-right {
+  color: rgb(255, 255, 255);
+  margin-right: 40px;
+}
+.body-content2-right h2 {
+  font-size: 3.5rem;
+  font-family: system-ui;
+  margin-right: 100px;
+}
+.body-content2-right h4 {
+  font-size: 1.5rem;
+  font-family: system-ui;
+  margin-top: 25px;
+}
+/**page 4 styling start **/
+
+.body-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  border-top: 10px solid rgb(43, 37, 37);
+}
+.body-4 .left-box {
+  color: white;
+  margin-left: 50px;
+}
+.body-4 .left-box h1 {
+  font-size: 3.5rem;
+  font-family: system-ui;
+}
+.body-4 .left-box h6 {
+  font-size: 1.5rem;
+  font-family: system-ui;
+  margin-top: 25px;
+}
+.body-4 .right-box img {
+  margin-right: 65px;
+}
+
+/** page 5 styling here **/
+
+.body-5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  border-top: 10px solid rgb(43, 37, 37);
+}
+
+.body-5 .left-box5 img {
+  margin-left: 50px;
+}
+.body-5 .right-box5 {
+  color: white;
+  margin-right: 65px;
+}
+.body-5 .right-box5 h2 {
+  font-size: 3.5rem;
+  font-family: system-ui;
+}
+.body-5 .right-box5 h6 {
+  font-size: 1.5rem;
+  font-family: system-ui;
+  margin-top: 25px;
+}
+
+/** box footer can styling here **/
+.box {
+  height: 450px;
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
+  border-top: 10px solid rgb(43, 37, 37);
+  position: relative;
+}
+.box-data {
+  color: rgb(255, 255, 255, 0.7);
+  position: absolute;
+  top: 20%;
+  left: 11%;
+  font-size: 1.2rem;
+}
+.box-data a {
+  color: rgb(255, 255, 255, 0.7);
+}
+.box ul {
+  height: 176px;
+  position: absolute;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: start;
+  left: 11%;
+  top: 35%;
+}
+.box ul li {
+  color: rgb(255, 255, 255, 0.7);
+  list-style: none;
+}
+.box .logo-sighin {
+  position: absolute;
+  left: 11%;
+  top: 82%;
+}
+.box p {
+  color: rgb(255, 255, 255, 0.7);
+  margin-top: 15px;
+  margin-left: 11px;
+  font-family: serif;
+}
